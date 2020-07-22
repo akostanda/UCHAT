@@ -1,0 +1,153 @@
+
+/********************* Colour reference chart****************
+*************************** comment ********* colour ******** 
+
+box background colour       bbg              #131313
+box background light col    bbg              #211927
+box filldes colour          bfc              #3e3e3e
+box border colour           bb               #ffffff
+box text colour             bt               #ffffff
+
+*/
+
+window {
+    background-image: linear-gradient(to bottom right, #211927, #131313);
+}
+
+label {
+    color: #ffffff;
+}
+
+box {
+    background-color: #2f1447;
+}
+
+box label {
+    color: #ffffff;
+}
+
+grid {
+    background-color: #3e3e3e;
+}
+
+list grid {
+    background-color: transparent;
+}
+
+list grid grid {
+    background-color: #2f1447;
+    border-radius: 15px;
+}
+
+list grid grid label {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+list grid grid image {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#user_name_label {
+    color: #4e4e4e;
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+list {
+    background-image: linear-gradient(to bottom right, #211927, #131313);
+}
+
+list label {
+    color: #ffffff;
+}
+
+list image {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+label {
+    font: 16px Sans Bold;
+}
+
+switch {
+    border-radius: 27px;
+    background-image: linear-gradient(#3e3e3e, #3e3e3e);
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+switch:focus {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+switch slider {
+    border-radius: 27px;
+    background-image: linear-gradient(#3e3e3e, #3e3e3e);
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+switch:checked {
+    border-color: #ffffff;
+    border-width: 1px;
+}
+
+switch:checked slider {
+    border-color: #ffffff;
+    border-width: 1px;
+}
+
+entry {
+    background-color: #3e3e3e;
+    border-color: #ffffff;
+    border-width: 3px;
+    color: #ffffff;
+}
+
+textview.view {
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
+textview text {
+    background-color: #3e3e3e;
+    color: #ffffff;
+}
+
+#list_lines_count label {
+    font-size: 8px;
+}
+
+button {
+    border-radius: 0%;
+    background-image: linear-gradient(#3e3e3e, #3e3e3e);
+}
+
+button:active {
+    background-image: linear-gradient(#ffffff, #ffffff);
+}
+
+button:focus {
+    border-color: #ffffff;
+    border-width: 4px;
+}
+
+button label {
+    color: #ffffff;
+}
+
+button:active label {
+    color: #3e3e3e;
+}
